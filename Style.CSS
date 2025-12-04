@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+.nav {
+    background-color: #1F222B;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo img{
+    height: 9vh;
+    cursor: pointer;
+    background-size: cover;
+    width: 200px
+}
+.nav-right{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    gap: 40px;
+    color: white;
+}
+.box{
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.log{
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background:linear-gradient(90deg,rgba(27, 111, 184, 1) 0%, rgba(31, 141, 219, 1) 50%, rgba(27, 111, 184, 1) 100%);
+    cursor: pointer;
+    width: 80px;
+}
+.box:active , .box:hover{
+    border-bottom: 2px solid #2E9DEC;
+    color: #2E9DEC;
+}
+.hero{
+    background-color: #28292b;
+    height: 40vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-text{
+    text-align: center;
+    width: 60%;
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+.hero-button{
+    background-color: #2E9DEC;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    background: linear-gradient(90deg,rgba(27, 111, 184, 1) 0%, rgba(31, 141, 219, 1) 50%, rgba(27, 111, 184, 1) 100%);
+}
+.hero-button:hover{
+    background-color: #1B6FB8;
+
+}
+.main {
+    background-color:#1F222B;
+    height: 50vh;
+    width: 100%;
+    color: white;
+}
+.main-tag{
+    padding-left: 90px;
+    padding-top: 20px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.main-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.card{
+    background-color: #28292b;
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    flex-direction: column;
+}
+.card-icon{
+    font-size: 50px;
+    color: #2E9DEC;
+    margin-bottom: 10px;
+}
+.card-name{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
