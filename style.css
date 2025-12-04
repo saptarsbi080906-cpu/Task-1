@@ -1,9 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', sans-serif;
 }
+
 .nav {
     background-color: #1F222B;
     height: 10vh;
@@ -12,13 +13,15 @@
     align-items: center;
     justify-content: space-around;
 }
-.logo img{
+
+.logo img {
     height: 9vh;
     cursor: pointer;
     background-size: cover;
     width: 200px
 }
-.nav-right{
+
+.nav-right {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -26,7 +29,8 @@
     gap: 40px;
     color: white;
 }
-.box{
+
+.box {
     cursor: pointer;
     font-size: 18px;
     font-weight: 500;
@@ -35,21 +39,25 @@
     align-items: center;
     justify-content: center;
 }
-.log{
+
+.log {
     height: 6vh;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
-    background:linear-gradient(90deg,rgba(27, 111, 184, 1) 0%, rgba(31, 141, 219, 1) 50%, rgba(27, 111, 184, 1) 100%);
+    background: linear-gradient(90deg, rgba(27, 111, 184, 1) 0%, rgba(31, 141, 219, 1) 50%, rgba(27, 111, 184, 1) 100%);
     cursor: pointer;
     width: 80px;
 }
-.box:active , .box:hover{
+
+.box:active,
+.box:hover {
     border-bottom: 2px solid #2E9DEC;
     color: #2E9DEC;
 }
-.hero{
+
+.hero {
     background-color: #28292b;
     height: 40vh;
     width: 100%;
@@ -58,7 +66,8 @@
     align-items: center;
     justify-content: center;
 }
-.hero-text{
+
+.hero-text {
     text-align: center;
     width: 60%;
     height: 175px;
@@ -69,7 +78,8 @@
     justify-content: center;
     border: none;
 }
-.hero-button{
+
+.hero-button {
     background-color: #2E9DEC;
     border: none;
     padding: 10px 20px;
@@ -77,32 +87,38 @@
     color: white;
     font-size: 16px;
     cursor: pointer;
-    background: linear-gradient(90deg,rgba(27, 111, 184, 1) 0%, rgba(31, 141, 219, 1) 50%, rgba(27, 111, 184, 1) 100%);
+    background: linear-gradient(90deg, rgba(27, 111, 184, 1) 0%, rgba(31, 141, 219, 1) 50%, rgba(27, 111, 184, 1) 100%);
 }
-.hero-button:hover{
+
+.hero-button:hover {
     background-color: #1B6FB8;
 
 }
+
 .main {
-    background-color:#1F222B;
+    background-color: #1F222B;
     height: 50vh;
     width: 100%;
     color: white;
 }
-.main-tag{
+
+.main-tag {
     padding-left: 90px;
     padding-top: 20px;
     font-size: 24px;
     font-weight: 600;
 }
-.main-text{
+
+.main-text {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    width: 100%;
 }
-.card{
+
+.card {
     background-color: #28292b;
-    width: 250px;
+    width: 20%;
     height: 200px;
     border-radius: 10px;
     margin-top: 20px;
@@ -112,13 +128,15 @@
     cursor: pointer;
     flex-direction: column;
 }
-.card-icon{
+
+.card-icon {
     font-size: 50px;
     color: #2E9DEC;
     margin-bottom: 10px;
 }
-.card-name{
-    font-size: 20px;
+
+.card-name {
+    font-size: 1.3rem;
     font-weight: 600;
     margin-bottom: 10px;
 }
